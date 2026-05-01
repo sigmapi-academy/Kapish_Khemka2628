@@ -10,7 +10,7 @@ import java.util.*;
  */
 public class CreateStudents
 {
-    public static void main(String[] args){
+    public static void main(String[] args) throws CloneNotSupportedException {
         Scanner sc = new Scanner(System.in);
         System.out.print("\f");
         Student s1 = new Student(); //by calling default constructor
@@ -41,5 +41,28 @@ public class CreateStudents
         System.out.print("\nRoll number: " + s2.getRollNumber());
         System.out.print("\nName: " + s2.getName());
         System.out.print("\nStandard: " + s2.getStd());
+        
+        try
+        {
+            try
+            {
+                Student s3 = (Student)Class.forName("Student").newInstance();
+            }
+            catch (InstantiationException ie)
+            {
+                ie.printStackTrace();
+            }
+        }
+        catch (IllegalAccessException iae)
+        {
+            iae.printStackTrace();
+        }
+        catch(ClassNotFoundException ob){
+            
+        }
+        
+        Student st5 = (Student)s1.clone();
+        
+        Student st6 = Student.newStudent();
     }
 }

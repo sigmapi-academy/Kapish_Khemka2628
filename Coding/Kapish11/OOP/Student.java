@@ -7,7 +7,7 @@ package OOP;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Student
+public class Student implements Cloneable
 {
     private int rollNumber;
     private String name;
@@ -48,5 +48,17 @@ public class Student
     
     public byte getStd(){
         return this.std;
+    }
+    
+     // Overriding the clone() method
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        // Returning a clone of the current object
+        return super.clone(); 
+    }
+    
+    //factory method
+    public static Student newStudent(){
+        return new Student();
     }
 }
