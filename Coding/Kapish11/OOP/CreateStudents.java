@@ -12,9 +12,10 @@ public class CreateStudents
 {
     public static void main(String[] args) throws CloneNotSupportedException {
         Scanner sc = new Scanner(System.in);
-        System.out.print("\f");
+        System.out.print("\n");
         Student s1 = new Student(); //by calling default constructor
-        System.out.print("Enter roll number: ");
+        Student.setSchoolName(sc.nextLine());
+        System.out.print("\nEnter roll number: ");
         s1.setRollNumber(sc.nextInt());
         sc.nextLine(); //to remove the keyboard buffer
         System.out.print("Enter name of student: ");
@@ -64,5 +65,12 @@ public class CreateStudents
         Student st5 = (Student)s1.clone();
         
         Student st6 = Student.newStudent();
+        
+        Student st7 = new Student(st6); //Using Copy Constructor
+        
+        //Changed the state of st7, which is the copy of st6
+        st7.setStd((byte)10); 
+        
+        System.out.print("\n" + st6 + "\n" + st7);
     }
 }
