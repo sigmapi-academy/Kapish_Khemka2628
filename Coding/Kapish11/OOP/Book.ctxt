@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ P1\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Book()
+comment2.params=T\ A
+comment2.target=Book(java.lang.String,\ java.lang.String)
+comment3.params=Tt\ Aa\ P\ id
+comment3.target=Book(java.lang.String,\ java.lang.String,\ double,\ long)
+comment4.params=percent
+comment4.target=void\ applyDiscount(double)
+comment5.params=
+comment5.target=void\ display()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
