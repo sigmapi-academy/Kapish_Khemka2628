@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TestPoint
+comment1.params=dx\ dy
+comment1.target=Point(int,\ int)
+comment2.params=pt
+comment2.target=Point(Point)
+comment3.params=dx\ dy
+comment3.target=void\ move(int,\ int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
