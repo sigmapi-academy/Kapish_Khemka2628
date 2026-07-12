@@ -1,0 +1,11 @@
+#BlueJ class context
+#Fri Jul 03 06:58:07 IST 2026
+comment0.target=MatrixOperations
+comment0.text=\r\n Write a description of class MatrixOperations here.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.params=A
+comment1.target=int[][] transpose(int[][])
+comment2.params=A msg
+comment2.target=void printArray(int[][], java.lang.String)
+comment3.params=m n
+comment3.target=int[][] createMatrix(int, int)
+numComments=4
