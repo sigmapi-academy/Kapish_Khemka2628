@@ -1,0 +1,7 @@
+#BlueJ class context
+#Thu Aug 06 06:50:51 IST 2026
+comment0.target=Q6FromNotes
+comment0.text=\r\n Longest Consecutive Increasing Sequence\r\n Write a program to input N integers into an array.\r\n Determine the longest consecutive increasing sequence present in the array.\r\n Print\r\n\t\u2022 Starting index\r\n\t\u2022 Ending index\r\n\t\u2022 Length of the sequence\r\n\t\u2022 Elements of the sequence\r\n\tExample\r\n\tInput\r\n\t12\r\n\t5 8 10 15 3 7 9 11 13 2 4 6\r\n\t\r\n\tOutput\r\n\tLongest Consecutive Increasing Sequence\r\n\t7 9 11 13\r\n\tStarting Index \= 5\r\n\tEnding Index \= 8\r\n\tLength \= 4\r\n\tExample\r\n\tInput\r\n\t8\r\n\t9 8 7 6 5 4 3 2\r\n\tOutput\r\n\tLongest Consecutive Increasing Sequence\r\n\t9\r\n\tLength \= 1\r\n\tRestrictions\r\n\t\u2022 Do not sort the array.\r\n\t\u2022 Do not use any additional array.\r\n\t\u2022 Solve using a single traversal.\r\n\r\n\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

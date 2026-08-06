@@ -1,0 +1,11 @@
+#BlueJ class context
+#Thu Aug 06 06:23:26 IST 2026
+comment0.target=Q3FromNotes
+comment0.text=\r\n Insert an Element at a Given Position\r\n Write a program to create an array of N elements.\r\n Input a new element X and a position P (0-based index). \r\n Insert the element at the specified position by shifting\r\n the remaining elements to the right.\r\n If the array is already full, display "Insertion not possible."\r\n Example\r\n Original Array\r\n [10, 20, 30, 40, 50]\r\n Enter element \: 25\r\n Enter position \: 2\r\n Output\r\n Array after insertion\r\n [10, 20, 25, 30, 40, 50]\r\n Restrictions\r\n\u2022 Do not create another array.\r\n\u2022 Perform insertion using shifting only.\r\n\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment2.params=A e position
+comment2.target=void insert(int[], int, int)
+comment3.params=A msg
+comment3.target=void displayArray(int[], java.lang.String)
+numComments=4
