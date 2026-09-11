@@ -1,0 +1,11 @@
+#BlueJ class context
+#Thu Sep 03 06:38:18 IST 2026
+comment0.target=Mix
+comment0.text=\r\n Write a description of class Mix here.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.target=Mix()
+comment2.target=void feedword()
+comment3.params=P Q
+comment3.target=void mix_word(Mix, Mix)
+comment4.target=void display()
+comment5.target=void main()
+numComments=6

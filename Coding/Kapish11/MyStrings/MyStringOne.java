@@ -18,6 +18,6 @@ public class MyStringOne
         
         char ch[] = {'C', 'a', 't'};
         
-        String pet = 
+        
     }
 }
