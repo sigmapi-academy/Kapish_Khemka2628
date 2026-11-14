@@ -27,3 +27,4 @@ age = 25
 # Modern. f-String approach (recommended)
 formatterd_str = f"My name is {name} and I am {age} years old"
 
+
